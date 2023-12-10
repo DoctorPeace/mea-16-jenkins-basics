@@ -10,7 +10,7 @@ pipeline{
                 //Basic directoy print and echo commands
                 sh '''
                 pwd
-                echo "Hi there"
+                echo "Hi Chris!"
                 echo "Groovy Baby"
                 echo "Inside shell block"
                 '''
