@@ -28,14 +28,12 @@ pipeline{
             }
 
         }
-    
+    }
         post {
             always{
                 archiveArtifacts '*.zip'
             }
-            
+
         }
     
-    }
-
 }
